@@ -22,6 +22,10 @@ border-bottom: 4px solid  #464a47 ;
 .nav-link:focus{
   border-bottom: 4px solid #dc3545;
 }
+.nav-link:focus{
+  color: rgb(66, 170, 195) !important;
+  font-weight: bolder;
+}
 .nav-link:hover{
   border-bottom: 4px solid rgb(66, 170, 195);
   
@@ -33,7 +37,8 @@ border-bottom: 4px solid  #464a47 ;
   
 }
 .khanal{
-  color: #dc3545 !important;
+  color: #dc3545 !important ;
+  font-weight: 1000 !important;
 }
 
 /* Header css */
@@ -99,4 +104,91 @@ text-transform: uppercase !important;
     font-size: 20px !important;
   }
 
+}
+
+/* education css */
+.experience{
+  background-color: #dde9e0;
+  height: 60vh;
+
+}
+.line{
+  height:100px;
+  border-left: 3px solid blueviolet;
+}
+.schooling{
+  color: #dc3545;
+  font-weight: bolder;
+  font-size: larger;
+}
+.plus2{
+  color: #dc3545;
+  font-weight: bolder;
+  font-size: larger;
+}
+.p2{
+  color: #94484f;
+  font-weight: bolder;
+  font-size: smaller !important;
+}
+.book{
+  background-color: rgb(187, 148, 64);
+padding: 10px;
+border-radius: 100%;
+margin-top: -45px;
+margin-left: -30px;
+}
+.book:hover{
+background-color: rgb(182, 66, 45) !important;
+
+}
+.higherstudy{
+  margin-left: 62px;
+}
+@media (max-width:1100px){
+  .experience{
+    height: 80vh;
+  }
+
+  .higherstudy{
+    margin-left: 46px;
+  }
+}
+@media (max-width:991px){
+  .book{
+  margin-top: -60px;
+  }
+  .line{
+    height:120px;
+  }
+  .line2{
+    margin-top: -12px;
+  }
+
+  .higherstudy{
+    margin-left: 40px;
+  }
+  .experience{
+    height: 90vh;
+  }
+
+}
+@media (max-width:767px){
+.line{
+  display: none;
+}
+.book{
+  display: none;
+}
+.higherstudy{
+  margin-left: 0px;
+}
+.experience{
+  height: 70vh;
+}
+}
+.clogname{
+  color: #dc3545;
+  font-weight: bolder;
+  font-size: larger;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import logo from '../first.jpg';
 const About = () =>{
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 mb-5" id="about">
             <div className="row">
             <h2 className="text-uppercase text-black text-center  mb-5  offset-md-5 offset-3 border-bottom border-success font-weight-bold">About Me</h2>  
             </div>

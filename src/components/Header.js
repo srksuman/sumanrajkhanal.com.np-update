@@ -2,7 +2,7 @@ import React from 'react';
 import Typed from 'react-typed';
 const Header =()=>{
     return(
-       <div className="main-header-wrapper">
+       <div className="main-header-wrapper" id="header">
            <div className="main-info">
                <h2>Destiny Never Lies Within Vision, <br/> Dream Never Lies Within Imagination</h2>
                <h3>Hello! I am</h3>
