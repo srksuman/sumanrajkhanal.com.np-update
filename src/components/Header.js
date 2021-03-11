@@ -13,7 +13,7 @@ const Header =()=>{
            typeSpeed={400}
            loop
            /> 
-           <a href="#" className="btn btn-outline-success">Contact Me</a>
+           <button type="submit" className="btn btn-outline-success">Contact Me</button >
            </div>
            
        </div>

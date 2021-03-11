@@ -12,10 +12,12 @@ color: beige !important;
 padding: 20px !important;
 border-bottom: 4px solid  #464a47 ;
 
+
 }
 .navbar{
   background-color: #464a47 !important;
-  z-index: 2;
+  position: fixed !important; 
+  z-index: 999;
 }
 .nav-link:focus{
   border-bottom: 4px solid #dc3545;

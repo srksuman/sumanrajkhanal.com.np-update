@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 
  const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark  ">
+        <nav className="navbar navbar-expand-lg navbar-dark container-fluid ">
 <div className="container">
 
         <a className="navbar-brand display-3" href="#">S.R.<span className="khanal">Khanal</span></a>
