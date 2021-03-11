@@ -7,7 +7,7 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
         <nav className="navbar navbar-expand-lg navbar-dark  ">
 <div className="container">
 
-        <a className="navbar-brand display-3" href="#">S.R.Khanal</a>
+        <a className="navbar-brand display-3" href="#">S.R.<span className="khanal">Khanal</span></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           {/* <span className="navbar-toggler-icon"></span> */}
           <FontAwesomeIcon icon={faBars} style={{color:"white"}}/>
@@ -38,9 +38,6 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
               <a className="nav-link " href="#">interest</a>
             </li> 
 
-            <li className="nav-item">
-              <a className="nav-link " href="#">contact</a>
-            </li> 
           </ul>
           
 </div>

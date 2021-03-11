@@ -1,5 +1,5 @@
 body{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace !important;
 }
 /* ---nav bar css--- */
 .nav-link{
@@ -15,10 +15,10 @@ border-bottom: 4px solid  #464a47 ;
 }
 .navbar{
   background-color: #464a47 !important;
+  z-index: 2;
 }
 .nav-link:focus{
   border-bottom: 4px solid #dc3545;
-  
 }
 .nav-link:hover{
   border-bottom: 4px solid rgb(66, 170, 195);
@@ -30,8 +30,71 @@ border-bottom: 4px solid  #464a47 ;
   font-weight: 500;
   
 }
-.navbar-brand:hover{
+.khanal{
+  color: #dc3545 !important;
+}
+
+/* Header css */
+
+.auto-typing{
+  font-size: 30px;
+  font-weight: 500;
+  color: white ;
+ text-transform: capitalize;
+
+}
+.main-header-wrapper{
+  position: relative;
+  background:   linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),url(first.jpg) no-repeat ;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; 
+
+}
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 3;
+}
+.main-info h2{
   color: #dc3545;
-  opacity: 1;
+  font-weight: 800;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.main-info h3{
+  color: white;
+  font-size: 30px;
+}
+.btn{
+color: white !important;
+text-transform: uppercase !important;
+}
+
+.btn:hover{
+  transition: .2s ease-in-out !important;
+}
+
+/* particles css */
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 90vh;
+  z-index: 1;
+}
+@media (max-width:768px){
+  .particles{
+    display: none;
+  }
+  .auto-typing,.main-info h3,.main-info h2{
+    font-size: 20px !important;
+  }
 
 }
