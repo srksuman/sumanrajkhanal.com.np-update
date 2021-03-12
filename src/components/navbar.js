@@ -33,24 +33,24 @@ import {Link} from "react-scroll";
 
             <li className="nav-item">
 
-            <Link  className="nav-link" to="edu" spy={true} smooth={true} offset={-125} duration={500}>
+            <Link  className="nav-link" to="edu" spy={true} smooth={true} offset={-83} duration={500}>
             education 
         </Link>
 
              
             </li> 
 
+            <li className="nav-item">
+
+<Link className="nav-link" to="skills" spy={true} smooth={true} offset={-83} duration={500}>
+skills
+</Link>
+
+            </li> 
+
             {/* <li className="nav-item">
-              <a className="nav-link " href="#">education</a>
-            </li>  */}
-
-            <li className="nav-item">
-              <a className="nav-link " href="#">skills</a>
-            </li> 
-
-            <li className="nav-item">
               <a className="nav-link " href="#">interest</a>
-            </li> 
+            </li>  */}
 
           </ul>
           

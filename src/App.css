@@ -147,7 +147,7 @@ background-color: rgb(182, 66, 45) !important;
 }
 @media (max-width:1100px){
   .experience{
-    height: 80vh;
+    height: 35vh;
   }
 
   .higherstudy{
@@ -184,7 +184,7 @@ background-color: rgb(182, 66, 45) !important;
   margin-left: 0px;
 }
 .experience{
-  height: 70vh;
+  height: 80vh;
 }
 }
 .clogname{
@@ -192,3 +192,26 @@ background-color: rgb(182, 66, 45) !important;
   font-weight: bolder;
   font-size: larger;
 }
+/* @media (max-width:465px){
+  .experience{
+    height: 100vh;
+  } */
+
+
+/* skills */
+.fab {
+  padding: 0px;
+  font-size: 70px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  opacity: 0.7;
+}
+.fab:hover {
+  opacity: 1;
+  color:#dc3545;
+}
+
+
+/* progress bar */
