@@ -3,7 +3,7 @@ import {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faSchool} from "@fortawesome/free-solid-svg-icons";
 const Education = () => {
     return (
-      <div className="container-fluid experience mt-5" id="edu">
+      <div className="container-fluid experience mt-5  d-flex" id="edu">
           <div className="container">
               <div className="row ">
                   <h2 className="mt-4 text-uppercase text-black text-center  mb-5  offset-md-5 offset-md-4 offset-3 border-bottom border-success font-weight-bold ">Education</h2>

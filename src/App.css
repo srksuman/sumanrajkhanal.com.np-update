@@ -17,7 +17,7 @@ border-bottom: 4px solid  #464a47 ;
 .navbar{
   background-color: #464a47 !important;
   position: fixed !important; 
-  z-index: 999;
+  z-index: 99999999;
 }
 .nav-link:focus{
   border-bottom: 4px solid #dc3545;
@@ -109,7 +109,7 @@ text-transform: uppercase !important;
 /* education css */
 .experience{
   background-color: #dde9e0;
-  height: 60vh;
+  
 
 }
 .line{
@@ -146,9 +146,7 @@ background-color: rgb(182, 66, 45) !important;
   margin-left: 62px;
 }
 @media (max-width:1100px){
-  .experience{
-    height: 35vh;
-  }
+  
 
   .higherstudy{
     margin-left: 46px;
@@ -168,9 +166,7 @@ background-color: rgb(182, 66, 45) !important;
   .higherstudy{
     margin-left: 40px;
   }
-  .experience{
-    height: 90vh;
-  }
+ 
 
 }
 @media (max-width:767px){
@@ -183,9 +179,7 @@ background-color: rgb(182, 66, 45) !important;
 .higherstudy{
   margin-left: 0px;
 }
-.experience{
-  height: 80vh;
-}
+
 }
 .clogname{
   color: #dc3545;
@@ -199,19 +193,61 @@ background-color: rgb(182, 66, 45) !important;
 
 
 /* skills */
-.fab {
+.fas {
   padding: 0px;
-  font-size: 70px;
-  width: 80px;
+  /* font-size: 70px; */
+  /* width: 50px; */
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  opacity: 0.7;
-}
-.fab:hover {
-  opacity: 1;
+
   color:#dc3545;
 }
+.fas:hover {
+  opacity: 1;
+  color:#35bbdc;
+}
 
 
-/* progress bar */
+/* contact */
+.white{
+  margin-top: 0px !important;
+  z-index: 9999999 !important;
+  position: absolute;
+  top: 3200px;
+  left: 340px;
+
+}
+.white-paper{
+  width: 240px !important;
+  height: 50px !important;
+}
+
+
+h5:hover{
+  opacity: 0.7;
+}
+
+@media (max-width:1085px){
+  .white{
+    
+    top: 2950px;
+    left: 180px;
+  
+  }
+}
+
+
+
+
+@media (max-width:768px){
+  .white{
+    
+   display: none;
+  
+  }
+}
+
+
+
+
