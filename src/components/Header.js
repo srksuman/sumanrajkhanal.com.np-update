@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import {Link} from "react-scroll";
 const Header =()=>{
     return(
        <div className="main-header-wrapper" id="header">
@@ -8,12 +9,14 @@ const Header =()=>{
                <h3>Hello! I am</h3>
            <Typed 
            className="auto-typing"
-           strings={["Suman Raj Khanal.","Programmer.","Writer."]}
+           strings={["Suman Raj Khanal.","Programmer.","Writer.","Developer."]}
            backSpeed={100}
            typeSpeed={400}
            loop
            /> 
-           <button type="submit" className="btn btn-outline-success">Contact Me</button >
+           <Link className="btn btn-outline-success"  to="contact" spy={true} smooth={true} offset={-83} duration={500}>
+contact
+</Link>
            </div>
            
        </div>

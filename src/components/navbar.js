@@ -8,7 +8,10 @@ import {Link} from "react-scroll";
         <nav className="navbar navbar-expand-lg navbar-dark container-fluid ">
 <div className="container">
 
-        <a className="navbar-brand display-3" href="#">S.R.<span className="khanal">Khanal</span></a>
+     
+        <Link  className="navbar-brand display-3 pointing" to="header" spy={true} smooth={true} offset={-50} duration={500}>
+        S.R.<span className="khanal">Khanal</span>
+        </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           {/* <span className="navbar-toggler-icon"></span> */}
           <FontAwesomeIcon icon={faBars} style={{color:"white"}}/>
@@ -48,14 +51,21 @@ skills
 
             </li> 
 
-            {/* <li className="nav-item">
-              <a className="nav-link " href="#">interest</a>
-            </li>  */}
+            <li className="nav-item">
 
+<Link className="nav-link" to="contact" spy={true} smooth={true} offset={-83} duration={500}>
+contact
+</Link>
+
+            </li> 
           </ul>
           
 </div>
+
+
         </div>
+
+        
       </nav>
     )
 }

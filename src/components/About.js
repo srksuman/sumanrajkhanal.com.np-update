@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../first.jpg';
+import logo from '../me.jpg';
 const About = () =>{
     return (
         <div className="container mt-5 mb-5" id="about">

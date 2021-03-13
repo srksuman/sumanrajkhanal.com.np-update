@@ -2,7 +2,7 @@ import React from 'react'
 import logo from './white.png';
 const Contact = () => {
     return (
-        <div className="container mt-5">
+        <div className="container mt-5" id="contact">
           <div className="row">
             <h2 className="mt-4 text-uppercase text-black text-center  mb-5  offset-md-5 offset-md-4 offset-3 border-bottom border-success font-weight-bold ">Contact</h2>
                 </div>
@@ -24,7 +24,7 @@ const Contact = () => {
    <hr/>
    <h5 className=" font-weight-bolder text-sm-center"><i class="fab fa-telegram-plane"></i>    @NPsrk</h5>
    <hr/>
-   <h5 className=" font-weight-bolder text-sm-center"><i class="fas fa-envelope"></i> sumanrajkhanal@gmail.com</h5>
+   <h5 className=" font-weight-bolder text-sm-center">  sumanrajkhanal@gmail.com</h5>
    <hr/>
    
 </div>
